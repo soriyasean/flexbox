@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 75vh;
+    border: 2px solid rgb(236, 95, 95);
+    margin: 30px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 33% 65%;
+    grid-template-rows: 15% 83%;
+    grid-template-areas: "header header""sidebar main"
+    
+                         
+
+
+
+}
+.container .header{
+    background-color: chartreuse; 
+    grid-area: header;
+    
+}
+.container .sidebar{
+    background-color: fuchsia;
+    grid-area: sidebar;
+}
+.container .main{
+    background-color: yellow;
+    grid-area: main;
+}
+
+
